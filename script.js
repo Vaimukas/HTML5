@@ -98,7 +98,7 @@
         case 'i2':
           //flying
           switch (dropTarget) {
-            case 's1': case 's6': case '11':
+            case 's1': case 's6': case 's11':
               return true;
             default: return false;
           }
@@ -106,7 +106,7 @@
         case 'i3':
           //poison
           switch (dropTarget) {
-            case 's11': case '17':
+            case 's11': case 's17':
               return true;
             default: return false;
           }
@@ -114,7 +114,7 @@
         case 'i4':
           //ground
           switch (dropTarget) {
-            case 's3': case '5': case 's8': case 's9': case '12':
+            case 's3': case 's5': case 's8': case 's9': case 's12':
               return true;
             default: return false;
           }
