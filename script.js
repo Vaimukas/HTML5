@@ -17,8 +17,8 @@
 
     function next() {
       endMessage.style.display = 'none';
-      //document.getElementById(this.id).classList.add('hide');
-      //document.getElementById(this.id).classList.remove('hide');
+      document.getElementById(item.id).classList.remove('disabled');
+
       prevCounter++;
       nextCounter++;
       let firstItem = document.querySelector('#draggable-list1 li#i' + nextCounter);
