@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Game</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <div class="label">
+    <h1>Who is strong against .. </h1>
+    <!--p>Drag light <img src="images_small/fighting.png" alt="Fighting"> over</p>
+  <p> other circles</p-->
+    <div>
+      <ul id="draggable-list1" class="draggable-list">
+        <!--li class ="hide" id="i0" draggable="true">
+          <img src="images/Normal.png" alt="Normal" id="t1">
+      </li-->
+        <li id="i1" draggable="true">
+          <img src="images/Fighting.png" alt="Fighting" id="t1">
+        </li>
+        <li id="i2" draggable="true">
+          <img src="images/Flying.png" alt="Flying" id="t2">
+        </li>
+        <li id="i3" draggable="true">
+          <img src="images/Poison.png" alt="Poison" id="t3">
+        </li>
+        <li id="i4" draggable="true">
+          <img src="images/Ground.png" alt="Ground" id="t4">
+        </li>
+        <li id="i5" draggable="true">
+          <img src="images/Rock.png" alt="Rock" id="t5">
+        </li>
+        <li id="i6" draggable="true">
+          <img src="images/Bug.png" alt="Bug" id="t6">
+        </li>
+        <li id="i7" draggable="true">
+          <img src="images/Ghost.png" alt="Ghost" id="t7">
+        </li>
+        <li id="i8" draggable="true">
+          <img src="images/Steel.png" alt="Steel" id="t8">
+        </li>
+        <li id="i9" draggable="true">
+          <img src="images/Fire.png" alt="Fire" id="t9">
+        </li>
+        <li id="i10" draggable="true">
+          <img src="images/Water.png" alt="Water" id="t10">
+        </li>
+        <li id="i11" draggable="true">
+          <img src="images/Grass.png" alt="Grass" id="t11">
+        </li>
+        <li id="i12" draggable="true">
+          <img src="images/Electric.png" alt="Electric" id="t12">
+        </li>
+        <li id="i13" draggable="true">
+          <img src="images/Psychic.png" alt="Psychic" id="t13">
+        </li>
+        <li id="i14" draggable="true">
+          <img src="images/Ice.png" alt="Ice" id="t14">
+        </li>
+        <li id="i15" draggable="true">
+          <img src="images/Dragon.png" alt="Dragon" id="t15">
+        </li>
+        <li id="i16" draggable="true">
+          <img src="images/Dark.png" alt="Dark" id="t16">
+        </li>
+        <li id="i17" draggable="true">
+          <img src="images/Fairy.png" alt="Fairy" id="t17">
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="left-menu">
+    <ul>
+      <button id="playAgain">Play Again</button>
+      <button id="next">Next</button>
+    </ul>
+
+    <div id="endMessage"><button>You are done</button><button id="next"> ... Stop trying</button></div>
+  </div>
+
+  <main class="container">
+    <div>
+      <ul class="draggable-list draggable-list2">
+        <li id="s0" draggable="true">
+          <img src="images/Normal.png" alt="Normal" id="t1">
+        </li>
+        <li id="s1">
+          <img src="images/Fighting.png" alt="Fighting" id="t1">
+        </li>
+        <li id="s2">
+          <img src="images/Flying.png" alt="Flying" id="t2">
+        </li>
+        <li id="s3">
+          <img src="images/Poison.png" alt="Poison" id="t3">
+        </li>
+        <li id="s4">
+          <img src="images/Ground.png" alt="Ground" id="t4">
+        </li>
+        <li id="s5">
+          <img src="images/Rock.png" alt="Rock" id="t5">
+        </li>
+        <li id="s6">
+          <img src="images/Bug.png" alt="Bug" id="t6">
+        </li>
+        <li id="s7">
+          <img src="images/Ghost.png" alt="Ghost" id="t7">
+        </li>
+        <li id="s8">
+          <img src="images/Steel.png" alt="Steel" id="t8">
+        </li>
+        <li id="s9">
+          <img src="images/Fire.png" alt="Fire" id="t9">
+        </li>
+        <li id="s10">
+          <img src="images/Water.png" alt="Water" id="t10">
+        </li>
+        <li id="s11">
+          <img src="images/Grass.png" alt="Grass" id="t11">
+        </li>
+        <li id="s12">
+          <img src="images/Electric.png" alt="Electric" id="t12">
+        </li>
+        <li id="s13">
+          <img src="images/Psychic.png" alt="Psychic" id="t13">
+        </li>
+        <li id="s14">
+          <img src="images/Ice.png" alt="Ice" id="t14">
+        </li>
+        <li id="s15">
+          <img src="images/Dragon.png" alt="Dragon" id="t15">
+        </li>
+        <li id="s16">
+          <img src="images/Dark.png" alt="Dark" id="t16">
+        </li>
+        <li id="s17">
+          <img src="images/Fairy.png" alt="Fairy" id="t17">
+        </li>
+      </ul>
+    </div>
+  </main>
+
+</body>
+
+</html>
